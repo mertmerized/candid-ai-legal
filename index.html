@@ -404,7 +404,7 @@
   </nav>
 
   <nav class="toc toc-terms" aria-label="Terms of Use table of contents">
-    <a href="#t1">About [App Name]</a>
+    <a href="#t1">About Candid AI</a>
     <a href="#t2">License Grant</a>
     <a href="#t3">Eligibility</a>
     <a href="#t4">Permissions &amp; Privacy</a>
@@ -433,7 +433,7 @@
         Candid AI · Legal Documents
       </div>
       <h1>Your data,<br><em>your control.</em></h1>
-      <p class="meta">Last updated: May 31, 2026 · Contact: prietoelenaaa@gmail.com</p>
+      <p class="meta">Last updated: June 19, 2026 · Contact: prietoelenaaa@gmail.com</p>
     </header>
 
     <nav class="doc-switcher" aria-label="Legal document navigation">
@@ -456,11 +456,11 @@
         </div>
         <div class="summary-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          Analytics anonymized via PostHog (opt-out available)
+          No third-party analytics SDK — no ad tracking
         </div>
         <div class="summary-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          Written with KVKK, GDPR, and Google Play in mind
+          Designed for global users with region-specific privacy rights
         </div>
       </div>
     </div>
@@ -476,14 +476,14 @@
       </div>
       <p>As a sole developer, no Data Protection Officer (DPO) has been formally appointed. All data-related inquiries are handled directly by the developer at the contact above.</p>
       <div class="highlight">
-        <strong>Note for EU/EEA Users:</strong> We are an individual developer based in Turkey and are not currently established in the EU/EEA. A formal EU Representative under GDPR Article 27 has not yet been appointed. If you are in the EU/EEA, you may contact us directly at the email above to exercise your rights; we aim to respond in good faith within applicable legal timeframes. We are working to meet regional requirements as the app expands internationally.
+        <strong>Note for EU/EEA Users:</strong> We are an individual developer based in Turkey and are not currently established in the EU/EEA. If GDPR Article 27 applies to our processing activities, we will designate an EU Representative as required. In the meantime, you may contact us directly at the email above to exercise your rights, and we aim to respond within applicable legal timeframes.
       </div>
     </section>
 
     <section id="s1">
       <div class="section-number">01</div>
       <h2>Introduction</h2>
-      <p>This Privacy Policy explains how Candid AI (&quot;we&quot;, &quot;our&quot;, or &quot;the app&quot;) collects, uses, and protects your information when you use our Android application. By using the app, you agree to the practices described in this policy.</p>
+      <p>This Privacy Policy explains how Candid AI (&quot;we&quot;, &quot;our&quot;, or &quot;the app&quot;) collects, uses, and protects your information when you use our mobile application on iOS and Android. This policy applies to users worldwide. By using the app, you agree to the practices described in this policy.</p>
       <p>If you do not agree with this policy, please discontinue use of the app and uninstall it from your device.</p>
     </section>
 
@@ -495,8 +495,8 @@
       <h3>Camera, Gallery Access, and On-Device AI Processing</h3>
       <p>The app requests the following permissions to provide its core features:</p>
       <ul>
-        <li><strong>Camera Permission (android.permission.CAMERA):</strong> Used to allow you to take photos directly within the app for pose reference purposes.</li>
-        <li><strong>Storage / Media Permission (READ_MEDIA_IMAGES or READ_EXTERNAL_STORAGE):</strong> Used to allow you to select existing photos from your gallery for pose reference.</li>
+        <li><strong>Camera Permission (e.g., android.permission.CAMERA / iOS camera access):</strong> Used to allow you to take photos directly within the app for camera and pose-guidance features.</li>
+        <li><strong>Storage / Media Permission (platform photo-library access):</strong> Used when you choose an existing image from your gallery (for example, selecting a profile photo).</li>
         <li><strong>Photo Library Add Permission:</strong> Used only when you choose to save a photo from the app to your device gallery (see <em>Saving Photos to Your Gallery</em> below).</li>
       </ul>
       <p><strong>How we process your photos (On-Device AI):</strong> Candid AI utilizes machine learning models to analyze your photos and suggest poses. <strong>All AI processing happens 100% locally on your device.</strong> Your photos are never uploaded, transmitted, or stored on any external cloud servers or databases. We only access the photos you explicitly select and do not scan your gallery in the background.</p>
@@ -541,20 +541,9 @@
       </ul>
       <p>We do not require you to use the feedback form. If you do not submit feedback, no email or message content is sent to Supabase. For more information about Supabase&apos;s practices, please consult the <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Privacy Policy</a>.</p>
 
-      <h3>Analytics Data (PostHog)</h3>
-      <p>We use <strong>PostHog</strong> to collect anonymized usage analytics. This may include:</p>
-      <ul>
-        <li>App events and interactions (e.g., which features are used)</li>
-        <li>Session duration and frequency</li>
-        <li>Device type, OS version, and app version</li>
-        <li>Anonymized device identifier (not linked to your identity)</li>
-      </ul>
-      <p>This data helps us understand how the app is used and improve the user experience. <strong>No personally identifiable information is linked to this data.</strong></p>
-      <p>PostHog acts as a data processor on our behalf and processes data in accordance with their own privacy policy. We have ensured that PostHog provides adequate data processing guarantees.</p>
-      <p><strong>Your right to opt out of analytics:</strong> You may request to opt out of analytics data collection at any time by contacting us at <a href="mailto:prietoelenaaa@gmail.com">prietoelenaaa@gmail.com</a>. We will process your request within 30 days.</p>
-
       <h3>App Framework and Telemetry (Expo / React Native)</h3>
-      <p>Candid AI is built using the React Native and Expo frameworks. Expo may automatically collect basic telemetry and crash reports (such as fatal errors and app performance metrics) to help us ensure app stability and fix bugs. For more information, please consult the <a href="https://expo.dev/privacy" target="_blank" rel="noopener">Expo Privacy Policy</a>.</p>
+      <p>Candid AI is built using the React Native and Expo frameworks. These framework services may process limited diagnostic data (for example, crash information, app version, and platform metadata) to help maintain app stability and fix bugs.</p>
+      <p>We do not integrate third-party advertising analytics SDKs and we do not use telemetry for ad targeting. For more information, please consult the <a href="https://expo.dev/privacy" target="_blank" rel="noopener">Expo Privacy Policy</a>.</p>
 
       <h3>Purchase and Subscription Data (RevenueCat)</h3>
       <p>We use <strong>RevenueCat</strong> to manage in-app purchases and subscriptions. RevenueCat may collect:</p>
@@ -565,8 +554,8 @@
       </ul>
       <p>RevenueCat does <strong>not</strong> collect or store payment card details. RevenueCat acts as a data processor on our behalf under a Data Processing Agreement (DPA). For more information, please consult the <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>.</p>
 
-      <h3>Payment Data (Google Play Billing)</h3>
-      <p>In-app purchases are processed through <strong>Google Play Billing</strong>. We never handle or store payment information directly. We only receive confirmation of completed transactions. For more information, please consult the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+      <h3>Payment Data (Platform App Stores)</h3>
+      <p>In-app purchases are processed through platform billing services (such as <strong>Google Play Billing</strong> on Android and Apple&apos;s App Store billing on iOS). We never handle or store payment card information directly. We only receive confirmation of completed transactions. For more information, please consult the relevant platform privacy policy (for example, the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and Apple&apos;s privacy information).</p>
     </section>
 
     <section id="s3">
@@ -584,18 +573,18 @@
         <tbody>
           <tr>
             <td>Camera / gallery images</td>
-            <td>Core pose reference functionality and AI analysis (processed locally only)</td>
-            <td>Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1))</td>
+            <td>Core camera features, profile photo selection, and on-device processing (processed locally only)</td>
+            <td>Performance of a Contract (GDPR Art. 6(1)(b) / KVKK Art. 5(2)(c)); and where required by platform permission rules, Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1))</td>
           </tr>
           <tr>
             <td>On-device face detection (live camera)</td>
             <td>Real-time pose coaching and framing guidance (processed locally only)</td>
-            <td>Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1))</td>
+            <td>Performance of a Contract (GDPR Art. 6(1)(b) / KVKK Art. 5(2)(c)); and where required by platform permission rules, Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1))</td>
           </tr>
           <tr>
             <td>Device motion / orientation</td>
             <td>Camera preview alignment and pose guidance</td>
-            <td>Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1))</td>
+            <td>Performance of a Contract (GDPR Art. 6(1)(b) / KVKK Art. 5(2)(c)); and where required by platform permission rules, Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1))</td>
           </tr>
           <tr>
             <td>Local app data (profile, captures, preferences)</td>
@@ -618,11 +607,6 @@
             <td>Explicit Consent (GDPR Art. 6(1)(a) / KVKK Art. 5(1)) — by submitting the form</td>
           </tr>
           <tr>
-            <td>Analytics (PostHog)</td>
-            <td>Understanding app usage, improving features</td>
-            <td>Legitimate Interest (GDPR Art. 6(1)(f) / KVKK Art. 5(2)(f)) — see below</td>
-          </tr>
-          <tr>
             <td>App Telemetry (Expo)</td>
             <td>Crash reporting, ensuring app stability</td>
             <td>Legitimate Interest (GDPR Art. 6(1)(f) / KVKK Art. 5(2)(f))</td>
@@ -633,17 +617,17 @@
             <td>Performance of a Contract (GDPR Art. 6(1)(b) / KVKK Art. 5(2)(c))</td>
           </tr>
           <tr>
-            <td>Purchase confirmation (Google)</td>
+            <td>Purchase confirmation (platform app stores)</td>
             <td>Granting access to paid content</td>
             <td>Performance of a Contract (GDPR Art. 6(1)(b) / KVKK Art. 5(2)(c))</td>
           </tr>
         </tbody>
       </table>
       <p>We do <strong>not</strong> sell your data to third parties. We do <strong>not</strong> use your data for advertising purposes.</p>
-      <h3>Legitimate Interest Assessment (Analytics &amp; Telemetry)</h3>
+      <h3>Legitimate Interest Assessment (Telemetry)</h3>
       <p>Where we rely on Legitimate Interest as our legal basis, we have assessed that:</p>
       <ul>
-        <li>The data collected is anonymized and not linked to your identity.</li>
+        <li>The data is limited to technical diagnostics and is not used for advertising profiling.</li>
         <li>The purpose (improving app stability and features) is proportionate to the minimal privacy impact.</li>
         <li>Users retain the right to object to this processing at any time (see Your Rights).</li>
       </ul>
@@ -652,13 +636,13 @@
     <section id="s4">
       <div class="section-number">04</div>
       <h2>How We Obtain Your Consent</h2>
-      <p>For data processing activities that require your consent (e.g., camera and gallery access), we request your explicit permission through the Android permissions system before accessing any such data. You may withdraw your consent at any time by revoking app permissions through your device settings.</p>
+      <p>For processing activities that depend on device permissions (for example camera, photo-library access, save-to-gallery access, and motion sensors where prompted), we request permission through your operating system (Android or iOS) before access. In other cases, processing is based on providing the features you request in the app. You may withdraw permission-based consent at any time by revoking app permissions through your device settings.</p>
     </section>
 
     <section id="s5">
       <div class="section-number">05</div>
       <h2>International Data Transfers</h2>
-      <p>While we are based in Turkey, the third-party services we use (Supabase, PostHog, RevenueCat, Expo, Google) may operate servers located in the United States, the European Union, or other countries.</p>
+      <p>While we are based in Turkey, the third-party services we use (such as Supabase, RevenueCat, Expo, and platform app-store providers) may operate servers located in the United States, the European Union, or other countries.</p>
       <p>Such transfers are conducted in accordance with:</p>
       <ul>
         <li><strong>KVKK Article 9</strong> (cross-border transfers)</li>
@@ -688,11 +672,6 @@
             <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td>
           </tr>
           <tr>
-            <td>PostHog</td>
-            <td>Usage analytics</td>
-            <td><a href="https://posthog.com/privacy" target="_blank" rel="noopener">posthog.com/privacy</a></td>
-          </tr>
-          <tr>
             <td>Expo</td>
             <td>Framework telemetry &amp; crash reporting</td>
             <td><a href="https://expo.dev/privacy" target="_blank" rel="noopener">expo.dev/privacy</a></td>
@@ -703,9 +682,9 @@
             <td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></td>
           </tr>
           <tr>
-            <td>Google Play</td>
+            <td>Platform app stores (Google Play / Apple App Store)</td>
             <td>Payment processing</td>
-            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google: policies.google.com/privacy</a> / <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple: apple.com/legal/privacy</a></td>
           </tr>
         </tbody>
       </table>
@@ -717,7 +696,7 @@
       <ul>
         <li><strong>Feedback data (Supabase):</strong> Retained for as long as needed to respond to and manage your message, and for up to <strong>24 months</strong> thereafter unless you request earlier deletion (see Your Rights).</li>
         <li><strong>Feed cache on device:</strong> Cached feed metadata and reference image URLs may remain on your device until you clear app storage or uninstall the app. We do not retain a separate copy of feed downloads tied to your identity on our servers beyond standard hosting logs.</li>
-        <li><strong>Analytics &amp; Telemetry data:</strong> Retained for up to <strong>12 months</strong>, after which it is automatically deleted or anonymized in accordance with PostHog and Expo's data retention policies. You may request earlier deletion (see Your Rights).</li>
+        <li><strong>Telemetry data (Expo):</strong> Retained for up to <strong>12 months</strong>, after which it is automatically deleted or anonymized in accordance with Expo&apos;s data retention policies. You may request earlier deletion (see Your Rights).</li>
         <li><strong>Purchase data (RevenueCat):</strong> Retained for as long as necessary to manage your active subscription status, and for up to <strong>3 years</strong> thereafter for legal and accounting purposes.</li>
         <li><strong>Local app data (profile, captures, preferences, on-device models):</strong> Stored only on your device and not accessible to us. Retained until you delete them in the app, clear app storage, or uninstall the app.</li>
       </ul>
@@ -748,14 +727,14 @@
         <li><strong>Right to Erasure</strong> (Art. 17): Request deletion of your data (&quot;right to be forgotten&quot;).</li>
         <li><strong>Right to Restriction</strong> (Art. 18): Restrict how your data is processed.</li>
         <li><strong>Right to Data Portability</strong> (Art. 20): Receive your data in a structured, machine-readable format.</li>
-        <li><strong>Right to Object</strong> (Art. 21): Object to processing based on legitimate interest, including analytics.</li>
+        <li><strong>Right to Object</strong> (Art. 21): Object to processing based on legitimate interest, including framework telemetry.</li>
         <li><strong>Right to Withdraw Consent</strong> (Art. 7(3)): Withdraw consent at any time without affecting the lawfulness of prior processing.</li>
       </ul>
       <p>We will respond to EU/EEA requests within <strong>30 days</strong> (extendable to 60 days for complex requests, with notice).</p>
 
       <h3>United States Users – California (CCPA / CPRA)</h3>
       <p>If you are a California resident, the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA), provides you with additional rights regarding your personal information.</p>
-      <p><strong>Categories we may collect</strong> (depending on features you use): identifiers (such as a pseudonymous app instance ID sent with feedback or via analytics or subscription services), contact information (email address if you submit feedback), internet or app activity (usage events and feed content requests), and commercial information (subscription or purchase status). Photos, face-analysis data from the live camera, and profile content you store in the app remain <strong>on your device</strong> and are not collected by us on our servers.</p>
+      <p><strong>Categories we may collect</strong> (depending on features you use): identifiers (such as a pseudonymous app instance ID sent with feedback or subscription services), contact information (email address if you submit feedback), internet or app activity (feed content requests), and commercial information (subscription or purchase status). Photos, face-analysis data from the live camera, and profile content you store in the app remain <strong>on your device</strong> and are not collected by us on our servers.</p>
       <p><strong>We do not sell your personal information</strong> and we do <strong>not</strong> share it for cross-context behavioral advertising.</p>
       <p>California residents may have the right to:</p>
       <ul>
@@ -766,6 +745,9 @@
         <li><strong>Non-discrimination</strong> for exercising your privacy rights.</li>
       </ul>
       <p>To submit a request, email <a href="mailto:prietoelenaaa@gmail.com">prietoelenaaa@gmail.com</a> with the subject line &quot;California Privacy Request&quot; and describe your request. We will verify your request and respond within the timeframes required by applicable law (typically <strong>45 days</strong>, with a possible extension where permitted). You may use an authorized agent where allowed by law; we may require proof of authorization.</p>
+
+      <h3>Users in Other Regions</h3>
+      <p>If your country or state grants additional privacy rights, you may contact us at <a href="mailto:prietoelenaaa@gmail.com">prietoelenaaa@gmail.com</a> to submit a request. We will review and handle requests in line with applicable local law.</p>
 
       <p><strong>To exercise any of these rights, contact:</strong> <a href="mailto:prietoelenaaa@gmail.com">prietoelenaaa@gmail.com</a></p>
 
@@ -784,7 +766,7 @@
       <ul>
         <li>All AI analysis of your images is performed entirely offline on your device, ensuring maximum security for your personal media.</li>
         <li>Third-party services are selected based on their own security standards and certifications.</li>
-        <li>Feedback stored in Supabase and any analytics or purchase data is accessible only to the developer.</li>
+        <li>Feedback stored in Supabase and any purchase data is accessible only to the developer.</li>
       </ul>
       <h3>Data Breach Notification</h3>
       <p>In the event of a personal data breach that is likely to result in a risk to your rights and freedoms, we will:</p>
@@ -822,7 +804,7 @@
         Email: <a href="mailto:prietoelenaaa@gmail.com">prietoelenaaa@gmail.com</a>
       </div>
       <p>We aim to respond to all inquiries within <strong>30 days</strong>.</p>
-      <p class="policy-footer-note"><em>This privacy policy is intended to align with Google Play Developer Policy requirements and common obligations under KVKK (Turkey) and GDPR (EU/EEA). It does not constitute legal advice, and we may update it as our practices or legal requirements change.</em></p>
+      <p class="policy-footer-note"><em>This privacy policy is intended to align with major app-store requirements and common obligations under applicable privacy laws, including KVKK (Turkey), GDPR (EU/EEA), and CCPA/CPRA (California). It does not constitute legal advice, and we may update it as our practices or legal requirements change.</em></p>
     </section>
 
     </article>
@@ -834,135 +816,150 @@
 
         <div class="summary-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          [Summary point 1]
+          Personal-use app license; no resale or misuse
         </div>
         <div class="summary-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          [Summary point 2]
+          Your photos and profile content remain yours
         </div>
         <div class="summary-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          [Summary point 3]
+          Subscriptions are billed by platform app stores
         </div>
         <div class="summary-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          [Summary point 4]
+          Global terms with rights under local laws
         </div>
       </div>
     </div>
 
     <section id="t1">
       <div class="section-number">T01</div>
-      <h2>About [App Name]</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <h2>About Candid AI</h2>
+      <p>These Terms of Use (&quot;Terms&quot;) govern your use of the Candid AI mobile application and related features. By downloading, accessing, or using the app, you agree to these Terms. If you do not agree, do not use the app.</p>
+      <p>Candid AI is provided by an individual developer and is intended for personal, non-commercial use unless we explicitly agree otherwise in writing.</p>
     </section>
 
     <section id="t2">
       <div class="section-number">T02</div>
       <h2>License Grant</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use Candid AI on devices you own or control, for personal and lawful purposes.</p>
+      <p>You may not copy, modify, distribute, sell, lease, or reverse engineer the app except where such restrictions are prohibited by applicable law.</p>
     </section>
 
     <section id="t3">
       <div class="section-number">T03</div>
       <h2>Eligibility</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>You must have the legal capacity to agree to these Terms in your country or region. If you are below the age of legal majority where you live, you may use the app only with permission and supervision of a parent or legal guardian.</p>
     </section>
 
     <section id="t4">
       <div class="section-number">T04</div>
       <h2>Permissions &amp; Privacy</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>Certain features require device permissions, such as camera, photo-library access, and save-to-gallery access. You can control these permissions through your device settings.</p>
+      <p>Your use of the app is also governed by our Privacy Policy, which explains how data is handled. If these Terms and the Privacy Policy conflict on data-processing details, the Privacy Policy controls for those details.</p>
     </section>
 
     <section id="t5">
       <div class="section-number">T05</div>
       <h2>Regional Privacy Rights</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>Depending on where you live, you may have privacy rights under local laws (for example, rights to access, delete, correct, or object to certain processing). We honor applicable legal rights and handle requests according to relevant laws.</p>
+      <p>For details about your rights and how to submit a request, see the Privacy Policy and contact information in these legal documents.</p>
     </section>
 
     <section id="t6">
       <div class="section-number">T06</div>
       <h2>User Content</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>You retain ownership of photos, profile details, and other content you create or store in the app (&quot;User Content&quot;).</p>
+      <p>You grant us only the limited rights necessary to operate requested app features (for example, displaying your selected profile image in-app, saving exports you initiate, or processing content locally on your device). We do not receive a broad commercial license to your User Content under these Terms.</p>
+      <p>You are responsible for ensuring you have the rights needed for any content you use in the app.</p>
     </section>
 
     <section id="t7">
       <div class="section-number">T07</div>
       <h2>Intellectual Property</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>The app, including its software, interface, branding, graphics, curated template metadata, and related materials (excluding your User Content), is owned by us or our licensors and protected by applicable intellectual property laws.</p>
+      <p>These Terms do not transfer ownership of any intellectual property rights to you.</p>
     </section>
 
     <section id="t8">
       <div class="section-number">T08</div>
       <h2>No Guarantee</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>The app depends on device hardware, operating systems, third-party services, and network availability. We do not guarantee uninterrupted availability, specific outcomes, or compatibility with every device configuration.</p>
     </section>
 
     <section id="t9">
       <div class="section-number">T09</div>
       <h2>Subscriptions</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>Some features may require a paid subscription. Subscription purchases are processed by platform app stores (such as Google Play or Apple App Store), and billing terms, renewals, cancellations, and refunds are governed by those store rules and your store account settings.</p>
+      <p>We may use RevenueCat to manage subscription entitlements and restore access across supported reinstall or account states. We do not store your full payment card details.</p>
     </section>
 
     <section id="t10">
       <div class="section-number">T10</div>
       <h2>Acceptable Use</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>You agree not to use the app to violate laws, infringe others&apos; rights, interfere with app operation, attempt unauthorized access, distribute malware, or abuse payment/refund systems. You also agree not to use automated tools to scrape or overload services connected to the app.</p>
     </section>
 
     <section id="t11">
       <div class="section-number">T11</div>
       <h2>Warranty Disclaimer</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>To the maximum extent permitted by applicable law, the app is provided &quot;as is&quot; and &quot;as available,&quot; without warranties of any kind, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
     </section>
 
     <section id="t12">
       <div class="section-number">T12</div>
       <h2>Liability</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>To the maximum extent permitted by applicable law, we are not liable for indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of profits, data, goodwill, or business interruption arising from or related to your use of the app.</p>
+      <p>Where liability cannot be fully excluded, our total aggregate liability is limited to the amount you paid for the app or subscriptions in the 12 months before the event giving rise to the claim, or USD 50 if you paid nothing, whichever is greater.</p>
     </section>
 
     <section id="t13">
       <div class="section-number">T13</div>
       <h2>Indemnification</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>To the extent permitted by applicable law, you agree to indemnify and hold us harmless from claims, liabilities, damages, losses, and reasonable expenses (including legal fees) arising out of your breach of these Terms, misuse of the app, or violation of third-party rights.</p>
     </section>
 
     <section id="t14">
       <div class="section-number">T14</div>
       <h2>Force Majeure</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>We are not responsible for delay or failure to perform obligations caused by events beyond our reasonable control, including natural disasters, internet outages, platform disruptions, labor disputes, government actions, or failures of third-party infrastructure.</p>
     </section>
 
     <section id="t15">
       <div class="section-number">T15</div>
       <h2>Changes</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>We may update these Terms from time to time to reflect feature changes, legal requirements, or operational needs. When material changes are made, we will update the &quot;Last updated&quot; date in these legal documents. Continued use of the app after updates become effective means you accept the revised Terms.</p>
     </section>
 
     <section id="t16">
       <div class="section-number">T16</div>
       <h2>Termination</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>We may suspend or terminate access to some or all app features if you materially violate these Terms or where necessary for security, legal compliance, or abuse prevention. You may stop using the app at any time by uninstalling it.</p>
+      <p>Sections that by nature should survive termination (including intellectual property, disclaimers, liability limits, indemnification, and governing law) will survive.</p>
     </section>
 
     <section id="t17">
       <div class="section-number">T17</div>
       <h2>Governing Law</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>These Terms are governed by and interpreted under applicable law in a manner that gives effect to mandatory consumer protections in your country or region of residence. Where local law permits contractual choice-of-law and forum provisions, disputes will be handled in a competent forum determined under applicable conflict-of-law principles and procedural rules.</p>
     </section>
 
     <section id="t18">
       <div class="section-number">T18</div>
       <h2>Severability</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>If any provision of these Terms is held invalid or unenforceable, that provision will be interpreted to reflect its intent as closely as possible under applicable law, and the remaining provisions will remain in full force and effect.</p>
     </section>
 
     <section id="t19">
       <div class="section-number">T19</div>
       <h2>Contact</h2>
-      <p class="placeholder-note">[Add content here]</p>
+      <p>If you have questions about these Terms, please contact:</p>
+      <div class="highlight">
+        <strong>Mehmet Mert Altuntaş</strong><br>
+        Email: <a href="mailto:prietoelenaaa@gmail.com">prietoelenaaa@gmail.com</a>
+      </div>
+      <p>We aim to respond to legal and support inquiries within <strong>30 days</strong>.</p>
     </section>
     </article>
 
